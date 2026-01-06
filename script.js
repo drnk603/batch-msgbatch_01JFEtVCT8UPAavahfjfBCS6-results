@@ -687,7 +687,7 @@
                     to { opacity: 1; }
                 }
                 @keyframes slideUp {
-                    from { transform: translateY(30px); opacity: 0; }
+                    from { height: 0; max-height: calc(100vh - var(--header-h)); opacity: 1; }
                     to { transform: translateY(0); opacity: 1; }
                 }
                 .privacy-modal-close:hover {
