@@ -1,0 +1,386 @@
+<!doctype html>
+<html lang="nl">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AutoUnie Nederland - Premium Autoverkoop &amp; Service</title>
+  <meta name="description" content="AutoUnie Nederland biedt premium voertuigen, professionele service en betrouwbare autoverkoop. Vind uw perfecte auto met onze uitgebreide collectie en deskundige begeleiding.">
+  <!-- Open Graph -->
+  <meta property="og:title" content="AutoUnie Nederland - Premium Autoverkoop &amp; Service">
+  <meta property="og:description" content="AutoUnie Nederland biedt premium voertuigen, professionele service en betrouwbare autoverkoop. Vind uw perfecte auto met onze uitgebreide collectie en deskundige begeleiding.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://domain.com">
+  <meta property="og:image" content="https://domain.com/img/logo.png">
+  <!-- Canonical -->
+  <link rel="canonical" href="https://domain.com">
+  <!-- Bootstrap CSS -->
+  <!-- Custom CSS -->
+  <!-- JSON-LD Schema -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+ </head>
+ <body>
+  <header class="l-header navbar navbar-expand-md sticky-top bg-white border-bottom">
+   <div class="container">
+    <a class="navbar-brand c-logo" href="/"> <img src="https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?w=150&amp;h=40&amp;fit=crop&amp;crop=center" alt="AutoUnie Nederland, premium autoverkoop logo" width="150" height="40" class="img-fluid"> </a>
+    <button class="navbar-toggler c-nav__toggle" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+     <nav class="navbar-nav ms-auto c-nav">
+      <a class="nav-link c-nav__link" aria-current="page" href="index.html">Home</a> <a class="nav-link c-nav__link" href="about.html">Over Ons</a> <a class="nav-link c-nav__link" href="services.html">Diensten</a> <a class="nav-link c-nav__link" href="privacy.html">Privacy</a> <a class="nav-link c-nav__link" href="terms.html">Voorwaarden</a>
+     </nav>
+     <a href="#contact" class="btn btn-primary ms-3">Contact Opnemen</a>
+    </div>
+   </div>
+  </header>
+  <!-- Header -->
+  <main>
+   <!-- Hero Section -->
+   <section class="l-section hero-section py-5 position-relative" data-aos="fade-in">
+    <div class="hero-bg position-absolute top-0 start-0 w-100 h-100"></div>
+    <div class="hero-overlay position-absolute top-0 start-0 w-100 h-100"></div>
+    <div class="container position-relative py-5">
+     <div class="row align-items-center min-vh-75">
+      <div class="col-lg-6">
+       <h1 class="display-3 fw-bold text-white mb-4" data-aos="fade-up" data-aos-delay="100">Premium Auto's voor Elke Reis</h1>
+       <p class="lead text-white mb-5" data-aos="fade-up" data-aos-delay="200">Ontdek onze uitgebreide collectie van hoogwaardige voertuigen. Van stijlvolle stadsauto's tot krachtige SUV's - bij AutoUnie Nederland vindt u de perfecte match voor uw behoeften.</p>
+       <div class="d-flex flex-column flex-sm-row gap-3" data-aos="fade-up" data-aos-delay="300">
+        <a href="#featured" class="btn btn-primary btn-lg px-4">Bekijk Collectie</a> <a href="#contact" class="btn btn-outline-light btn-lg px-4">Gratis Advies</a>
+       </div>
+      </div>
+      <div class="col-lg-6 d-none d-lg-block">
+       <div class="ratio ratio-16x9" data-aos="fade-left" data-aos-delay="400">
+        <img src="https://images.unsplash.com/photo-1549924231-f129b911e442?w=600&amp;h=400&amp;fit=crop&amp;crop=center" alt="Luxe auto showroom met premium voertuigen, moderne auto's, exclusieve collectie" class="img-fluid rounded shadow-lg" loading="lazy">
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+   <!-- Search Bar Section -->
+   <section class="l-section py-4 bg-light">
+    <div class="container">
+     <div class="row justify-content-center">
+      <div class="col-lg-8">
+       <div class="search-wrapper p-4 bg-white rounded shadow-sm" data-aos="fade-up">
+        <h3 class="h5 mb-3 text-center">Zoek Uw Ideale Auto</h3>
+        <form class="row g-3 align-items-end">
+         <div class="col-md-3">
+          <label for="brand" class="form-label small">Merk</label> <select id="brand" class="form-select"> <option selected>Alle merken</option> <option>BMW</option> <option>Mercedes-Benz</option> <option>Audi</option> <option>Volkswagen</option> </select>
+         </div>
+         <div class="col-md-3">
+          <label for="type" class="form-label small">Type</label> <select id="type" class="form-select"> <option selected>Alle types</option> <option>Sedan</option> <option>SUV</option> <option>Hatchback</option> <option>Coupe</option> </select>
+         </div>
+         <div class="col-md-3">
+          <label for="price" class="form-label small">Max. Prijs</label> <select id="price" class="form-select"> <option selected>Geen limiet</option> <option>€ 25.000</option> <option>€ 50.000</option> <option>€ 75.000</option> <option>€ 100.000+</option> </select>
+         </div>
+         <div class="col-md-3">
+          <button type="submit" class="btn btn-primary w-100">Zoeken</button>
+         </div>
+        </form>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+   <!-- Featured Products -->
+   <section id="featured" class="l-section py-4 py-md-5" style="scroll-margin-top: var(--header-h)">
+    <div class="container">
+     <div class="row">
+      <div class="col-lg-8 mx-auto text-center mb-5">
+       <h2 class="display-5 fw-bold mb-3" data-aos="fade-up">Uitgelichte Voertuigen</h2>
+       <p class="lead text-muted" data-aos="fade-up" data-aos-delay="100">Ontdek onze zorgvuldig geselecteerde premium auto's, elk gekozen voor kwaliteit, betrouwbaarheid en stijl.</p>
+      </div>
+     </div>
+     <div class="row g-4">
+      <div class="col-lg-4 col-md-6">
+       <div class="card h-100 border-0 shadow-sm" data-aos="fade-up" data-aos-delay="100">
+        <div class="ratio ratio-16x9">
+         <img src="https://images.unsplash.com/photo-1555215695-3004980ad54e?w=400&amp;h=225&amp;fit=crop&amp;crop=center" alt="BMW sedan, luxe auto, premium voertuig, Duitse kwaliteit" class="card-img-top" style="object-fit: cover;" loading="lazy">
+        </div>
+        <div class="card-body d-flex flex-column">
+         <div class="d-flex justify-content-between align-items-start mb-2">
+          <h5 class="card-title mb-0">BMW 3 Serie</h5>
+          <span class="badge bg-success">Beschikbaar</span>
+         </div>
+         <p class="text-muted small mb-2">2023 • Benzine • Automaat</p>
+         <p class="card-text">Elegante sedan met sportieve prestaties en moderne technologie. Perfecte balans tussen comfort en dynamiek.</p>
+         <div class="mt-auto">
+          <div class="d-flex justify-content-between align-items-center">
+           <span class="h5 mb-0 text-primary">€ 52.900</span> <a href="#contact" class="btn btn-outline-primary">Meer Info</a>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+       <div class="card h-100 border-0 shadow-sm" data-aos="fade-up" data-aos-delay="200">
+        <div class="ratio ratio-16x9">
+         <img src="https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=400&amp;h=225&amp;fit=crop&amp;crop=center" alt="Mercedes SUV, luxe terreinwagen, premium auto, Duitse engineering" class="card-img-top" style="object-fit: cover;" loading="lazy">
+        </div>
+        <div class="card-body d-flex flex-column">
+         <div class="d-flex justify-content-between align-items-start mb-2">
+          <h5 class="card-title mb-0">Mercedes GLC</h5>
+          <span class="badge bg-warning text-dark">Reservering</span>
+         </div>
+         <p class="text-muted small mb-2">2022 • Hybrid • Automaat</p>
+         <p class="card-text">Luxueuze SUV met geavanceerde hybridetechnologie. Ideaal voor zowel stad als lange afstanden.</p>
+         <div class="mt-auto">
+          <div class="d-flex justify-content-between align-items-center">
+           <span class="h5 mb-0 text-primary">€ 68.500</span> <a href="#contact" class="btn btn-outline-primary">Meer Info</a>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+       <div class="card h-100 border-0 shadow-sm" data-aos="fade-up" data-aos-delay="300">
+        <div class="ratio ratio-16x9">
+         <img src="https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=400&amp;h=225&amp;fit=crop&amp;crop=center" alt="Audi coupe, sportieve auto, premium design, Duitse precisie" class="card-img-top" style="object-fit: cover;" loading="lazy">
+        </div>
+        <div class="card-body d-flex flex-column">
+         <div class="d-flex justify-content-between align-items-start mb-2">
+          <h5 class="card-title mb-0">Audi A5 Coupe</h5>
+          <span class="badge bg-success">Beschikbaar</span>
+         </div>
+         <p class="text-muted small mb-2">2023 • Benzine • Automaat</p>
+         <p class="card-text">Sportieve coupe met verfijnde afwerking en krachtige prestaties. Design en performance in perfecte harmonie.</p>
+         <div class="mt-auto">
+          <div class="d-flex justify-content-between align-items-center">
+           <span class="h5 mb-0 text-primary">€ 59.900</span> <a href="#contact" class="btn btn-outline-primary">Meer Info</a>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="text-center mt-5">
+      <a href="services.html" class="btn btn-primary btn-lg px-5" data-aos="fade-up" data-aos-delay="400">Bekijk Alle Voertuigen</a>
+     </div>
+    </div>
+   </section>
+   <!-- Security Info -->
+   <section class="l-section py-4 py-md-5 bg-light">
+    <div class="container">
+     <div class="row align-items-center">
+      <div class="col-lg-6 mb-4 mb-lg-0">
+       <div class="ratio ratio-16x9" data-aos="fade-right">
+        <img src="https://images.unsplash.com/photo-1560472355-536de3962603?w=600&amp;h=400&amp;fit=crop&amp;crop=center" alt="Veiligheid certificaat, kwaliteit waarborg, betrouwbare service, professionele garantie" class="img-fluid rounded shadow" style="object-fit: cover;" loading="lazy">
+       </div>
+      </div>
+      <div class="col-lg-6">
+       <div class="ps-lg-4">
+        <h2 class="display-6 fw-bold mb-4" data-aos="fade-up">Veiligheid &amp; Betrouwbaarheid</h2>
+        <p class="lead mb-4" data-aos="fade-up" data-aos-delay="100">Bij AutoUnie Nederland staat uw veiligheid voorop. Al onze voertuigen ondergaan uitgebreide kwaliteitscontroles en komen met uitgebreide garantie.</p>
+        <div class="row g-4">
+         <div class="col-sm-6">
+          <div class="d-flex align-items-start" data-aos="fade-up" data-aos-delay="200">
+           <div class="flex-shrink-0 me-3">
+            <div class="bg-primary rounded-circle p-2 d-inline-flex">
+             <svg width="20" height="20" fill="white" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+             </svg>
+            </div>
+           </div>
+           <div>
+            <h5 class="mb-1">APK Gekeurd</h5>
+            <p class="text-muted mb-0 small">Alle voertuigen zijn officieel gekeurd</p>
+           </div>
+          </div>
+         </div>
+         <div class="col-sm-6">
+          <div class="d-flex align-items-start" data-aos="fade-up" data-aos-delay="250">
+           <div class="flex-shrink-0 me-3">
+            <div class="bg-primary rounded-circle p-2 d-inline-flex">
+             <svg width="20" height="20" fill="white" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+             </svg>
+            </div>
+           </div>
+           <div>
+            <h5 class="mb-1">Garantie</h5>
+            <p class="text-muted mb-0 small">Tot 2 jaar uitgebreide garantie</p>
+           </div>
+          </div>
+         </div>
+         <div class="col-sm-6">
+          <div class="d-flex align-items-start" data-aos="fade-up" data-aos-delay="300">
+           <div class="flex-shrink-0 me-3">
+            <div class="bg-primary rounded-circle p-2 d-inline-flex">
+             <svg width="20" height="20" fill="white" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+             </svg>
+            </div>
+           </div>
+           <div>
+            <h5 class="mb-1">Financiering</h5>
+            <p class="text-muted mb-0 small">Flexibele financieringsmogelijkheden</p>
+           </div>
+          </div>
+         </div>
+         <div class="col-sm-6">
+          <div class="d-flex align-items-start" data-aos="fade-up" data-aos-delay="350">
+           <div class="flex-shrink-0 me-3">
+            <div class="bg-primary rounded-circle p-2 d-inline-flex">
+             <svg width="20" height="20" fill="white" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+             </svg>
+            </div>
+           </div>
+           <div>
+            <h5 class="mb-1">Service</h5>
+            <p class="text-muted mb-0 small">24/7 klantenservice en ondersteuning</p>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+   <!-- Partner Logos -->
+   <section class="l-section py-4 bg-white border-top border-bottom">
+    <div class="container">
+     <div class="text-center mb-4">
+      <p class="text-muted small fw-medium">VERTROUWD DOOR TOONAANGEVENDE MERKEN</p>
+     </div>
+     <div class="row align-items-center justify-content-center g-4" data-aos="fade-up">
+      <div class="col-6 col-md-2 text-center">
+       <img src="https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=100&amp;h=60&amp;fit=crop&amp;crop=center" alt="BMW logo, premium automerk, Duitse kwaliteit" class="img-fluid" style="max-height: 40px; opacity: 0.6; filter: grayscale(100%);" loading="lazy">
+      </div>
+      <div class="col-6 col-md-2 text-center">
+       <img src="https://images.unsplash.com/photo-1555215695-3004980ad54e?w=100&amp;h=60&amp;fit=crop&amp;crop=center" alt="Mercedes-Benz logo, luxe automerk, Duitse engineering" class="img-fluid" style="max-height: 40px; opacity: 0.6; filter: grayscale(100%);" loading="lazy">
+      </div>
+      <div class="col-6 col-md-2 text-center">
+       <img src="https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=100&amp;h=60&amp;fit=crop&amp;crop=center" alt="Audi logo, premium design, Duitse precisie" class="img-fluid" style="max-height: 40px; opacity: 0.6; filter: grayscale(100%);" loading="lazy">
+      </div>
+      <div class="col-6 col-md-2 text-center">
+       <img src="https://images.unsplash.com/photo-1549924231-f129b911e442?w=100&amp;h=60&amp;fit=crop&amp;crop=center" alt="Volkswagen logo, betrouwbare auto's, Duitse kwaliteit" class="img-fluid" style="max-height: 40px; opacity: 0.6; filter: grayscale(100%);" loading="lazy">
+      </div>
+      <div class="col-6 col-md-2 text-center">
+       <img src="https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=100&amp;h=60&amp;fit=crop&amp;crop=center" alt="Porsche logo, sportwagens, Duitse performance" class="img-fluid" style="max-height: 40px; opacity: 0.6; filter: grayscale(100%);" loading="lazy">
+      </div>
+     </div>
+    </div>
+   </section>
+   <!-- Contact Form -->
+   <section id="contact" class="l-section py-4 py-md-5 bg-primary text-white" style="scroll-margin-top: var(--header-h)">
+    <div class="container">
+     <div class="row">
+      <div class="col-lg-8 mx-auto text-center mb-5">
+       <h2 class="display-5 fw-bold mb-3" data-aos="fade-up">Neem Contact Op</h2>
+       <p class="lead opacity-90" data-aos="fade-up" data-aos-delay="100">Klaar om uw perfecte auto te vinden? Onze experts staan klaar om u te helpen met persoonlijk advies en de beste dealopties.</p>
+      </div>
+     </div>
+     <div class="row justify-content-center">
+      <div class="col-lg-8">
+       <div class="bg-white rounded shadow p-4 p-md-5">
+        <form class="c-form" method="POST" action="#" data-aos="fade-up" data-aos-delay="200">
+         <div class="row g-3">
+          <div class="col-md-6">
+           <div class="c-form__field">
+            <label class="c-form__label form-label text-dark" for="firstName">Voornaam *</label> <input class="c-form__input form-control" type="text" id="firstName" name="firstName" required> <span class="c-form__error invalid-feedback"></span>
+           </div>
+          </div>
+          <div class="col-md-6">
+           <div class="c-form__field">
+            <label class="c-form__label form-label text-dark" for="lastName">Achternaam *</label> <input class="c-form__input form-control" type="text" id="lastName" name="lastName" required> <span class="c-form__error invalid-feedback"></span>
+           </div>
+          </div>
+          <div class="col-md-6">
+           <div class="c-form__field">
+            <label class="c-form__label form-label text-dark" for="email">E-mail *</label> <input class="c-form__input form-control" type="email" id="email" name="email" required> <span class="c-form__error invalid-feedback"></span>
+           </div>
+          </div>
+          <div class="col-md-6">
+           <div class="c-form__field">
+            <label class="c-form__label form-label text-dark" for="phone">Telefoonnummer</label> <input class="c-form__input form-control" type="tel" id="phone" name="phone"> <span class="c-form__error invalid-feedback"></span>
+           </div>
+          </div>
+          <div class="col-12">
+           <div class="c-form__field">
+            <label class="c-form__label form-label text-dark" for="interest">Interesse in</label> <select class="c-form__input form-select" id="interest" name="interest"> <option value="">Selecteer een optie</option> <option value="buying">Auto kopen</option> <option value="selling">Auto verkopen</option> <option value="financing">Financiering</option> <option value="service">Service &amp; onderhoud</option> <option value="other">Anders</option> </select> <span class="c-form__error invalid-feedback"></span>
+           </div>
+          </div>
+          <div class="col-12">
+           <div class="c-form__field">
+            <label class="c-form__label form-label text-dark" for="message">Bericht</label> <textarea class="c-form__input form-control" id="message" name="message" rows="4" placeholder="Vertel ons over uw wensen en behoeften..."></textarea> <span class="c-form__error invalid-feedback"></span>
+           </div>
+          </div>
+          <div class="col-12">
+           <div class="c-form__field">
+            <div class="form-check">
+             <input class="c-form__checkbox form-check-input" type="checkbox" id="privacy" name="privacy" required> <label class="form-check-label text-dark" for="privacy"> Ik heb de <a href="privacy.html" class="text-primary">privacyverklaring</a> gelezen en ga akkoord met de verwerking van mijn gegevens * </label> <span class="c-form__error invalid-feedback"></span>
+            </div>
+           </div>
+          </div>
+          <div class="col-12">
+           <button class="c-button btn btn-primary btn-lg w-100" type="submit">Verstuur Bericht</button>
+          </div>
+         </div>
+        </form>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+  </main>
+  <!-- Footer -->
+  <!-- Bootstrap JS -->
+  <!-- AOS Animation Library -->
+  <!-- Custom JS -->
+  <footer class="l-footer bg-dark text-white py-4 py-md-5">
+   <div class="container">
+    <div class="row g-4">
+     <div class="col-lg-4">
+      <div class="mb-4">
+       <img src="https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?w=150&amp;h=40&amp;fit=crop&amp;crop=center" alt="AutoUnie Nederland logo" width="150" height="40" class="img-fluid mb-3">
+       <p class="text-light opacity-75">AutoUnie Nederland is uw betrouwbare partner voor premium auto's en professionele service in heel Nederland.</p>
+      </div>
+     </div>
+     <div class="col-lg-2 col-md-3">
+      <h6 class="fw-bold mb-3">Navigatie</h6>
+      <nav class="c-nav" aria-label="Footer navigation">
+       <ul class="list-unstyled c-nav__menu">
+        <li class="mb-2"><a class="c-nav__link text-light opacity-75" href="index.html">Home</a></li>
+        <li class="mb-2"><a class="c-nav__link text-light opacity-75" href="about.html">Over Ons</a></li>
+        <li class="mb-2"><a class="c-nav__link text-light opacity-75" href="services.html">Diensten</a></li>
+       </ul>
+      </nav>
+     </div>
+     <div class="col-lg-2 col-md-3">
+      <h6 class="fw-bold mb-3">Juridisch</h6>
+      <nav class="c-nav" aria-label="Legal navigation">
+       <ul class="list-unstyled c-nav__menu">
+        <li class="mb-2"><a class="c-nav__link text-light opacity-75" href="privacy.html">Privacy</a></li>
+        <li class="mb-2"><a class="c-nav__link text-light opacity-75" href="terms.html">Voorwaarden</a></li>
+       </ul>
+      </nav>
+     </div>
+     <div class="col-lg-4 col-md-6">
+      <h6 class="fw-bold mb-3">Contact Informatie</h6>
+      <div class="text-light opacity-75">
+       <p class="mb-2"><strong>Adres:</strong>
+        <br>
+        Damrak 123
+        <br>
+        1012 AB Amsterdam, Nederland</p>
+       <p class="mb-2"><strong>Telefoon:</strong> <a href="tel:+31201234567" class="text-light">+31 20 123 4567</a></p>
+       <p class="mb-0"><strong>E-mail:</strong> <a href="mailto:info@domain.com" class="text-light">info@domain.com</a></p>
+      </div>
+     </div>
+    </div>
+    <hr class="my-4 opacity-25">
+    <div class="row align-items-center">
+     <div class="col-md-6">
+      <p class="mb-0 text-light opacity-50">© 2025 AutoUnie Nederland. Alle rechten voorbehouden.</p>
+     </div>
+     <div class="col-md-6 text-md-end">
+      <p class="mb-0 text-light opacity-50">Premium autoverkoop &amp; service</p>
+     </div>
+    </div>
+   </div>
+  </footer>
+  <script src="script.js" defer></script>
+ </body>
+</html>
